@@ -17,7 +17,7 @@
 Парсер возвращает два типа сущностей: `Username` (строка) и `Id` (число `long`).
 
 | Формат в тексте | Тип | Результат
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | `@username` | `Username` | `username` |
 | `t.me/username` | `Username` | `username` |
 | `https://t.me/user` | `Username` | `user` |
@@ -100,8 +100,10 @@ The parser returns two types of entities: `Username` (string) and `Id` (`long` n
 ## Usage
 
 ```cmd
-cd your_directory && git clone [https://github.com/Puxxalwl/TelegramUserLinkParser](https://github.com/Puxxalwl/TelegramUserLinkParser)
+cd your_directory && git clone https://github.com/Puxxalwl/TelegramUserLinkParser
 ```
+
+---
 
 ```csharp
 using YourDirectory;
